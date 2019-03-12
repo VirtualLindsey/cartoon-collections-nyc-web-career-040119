@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(names)
   for names.each do |name|
-    new_string = string.slice(0,1).capitalize + string.slice(1..-1)
+    name = string.slice(0,1).capitalize + string.slice(1..-1)
   end
 end
 
