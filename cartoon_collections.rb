@@ -5,7 +5,9 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(names)
-  
+  for names.each do |name|
+    new_string = string.slice(0,1).capitalize + string.slice(1..-1)
+  end
 end
 
 def long_planeteer_calls# code an argument here
