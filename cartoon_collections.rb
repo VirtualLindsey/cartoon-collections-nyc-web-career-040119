@@ -5,13 +5,19 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(names)
+  result = []
   for names.each do |name|
-    name = string.slice(0,1).capitalize + string.slice(1..-1) + "!"
+    result <<  string.slice(0,1).capitalize + string.slice(1..-1) + "!"
   end
+  return result
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(words)
+  for words.each do |word|
+    if word.length > 4
+      return true
+  end
+  return false
 end
 
 def find_the_cheese# code an argument here
